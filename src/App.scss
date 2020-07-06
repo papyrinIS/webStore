@@ -1,0 +1,36 @@
+button:active, button:focus {
+  outline: none;
+}
+button{
+  border: 1px;
+  display: inline-flex;
+  padding: 10px;
+  background: #f10e34;
+  border-radius: 5px;
+}
+button:hover{
+  background: #f10e50;
+  cursor: pointer;
+}
+$colorFS:#000;
+$FS:25px;
+.App {
+  min-height: 725px;
+  justify-content: center;
+  display: grid;
+  grid-template-areas:
+          'header header'
+          'navbar content'
+          'footer footer';
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 200px 700px;
+  grid-gap: 10px;
+  height: 100%;
+  background: #f3f3f3;
+  font-size: $FS;
+  color:$colorFS;
+  .content{
+    grid-area: content;
+  }
+}
+

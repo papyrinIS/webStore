@@ -1,0 +1,74 @@
+.photoWindow {
+    padding: 10px;
+    height: 660px;
+    width: 600px;
+    background: #f5d5d5;
+    position: absolute;
+    z-index: 10000;
+    top: 20px;
+    left: 32%;
+}
+
+.photo {
+    height: 550px;
+    width: 600px;
+}
+
+.miniPhoto img {
+    height: 100px;
+    width: 100px;
+    margin: 5px 10px 5px 0;
+}
+
+.miniPhoto:hover {
+    cursor: pointer;
+}
+
+.up {
+    padding: 270px 15px;
+    position: absolute;
+    top: 0px;
+    right: -57px;
+    font-size: 25px;
+
+}
+
+.down {
+    padding: 270px 15px;
+    position: absolute;
+    top: 0;
+    left: -50px;
+    font-size: 25px;
+}
+
+.up:hover,
+.down:hover {
+    background: #f5d5d5;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.borderPhoto {
+    border: 2px solid gray;
+}
+
+.closeBorder:hover{
+    cursor: pointer;
+}
+
+.closeBorder1{
+    position: absolute;
+    top:20px;
+    right: -370px;
+    border-top: 10px solid #000000;
+    width: 50px;
+    transform: rotate(45deg);
+}
+.closeBorder2{
+    position: absolute;
+    top:20px;
+    right: -370px;
+    border-top: 10px solid #000000;
+    width: 50px;
+    transform: rotate(-45deg);
+}

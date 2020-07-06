@@ -1,0 +1,60 @@
+.feedBack{
+    display: block;
+}
+
+.feedbackForm {
+    margin-bottom: 5px;
+ img:hover{
+    cursor: pointer;
+     height: 16px;
+}
+    .fieldName {
+        display: block;
+        margin-top: 10px;
+        height: 25px;
+        width: 250px;
+    }
+
+    .fieldFeedback {
+        display: block;
+        margin-top: 10px;
+        height: 100px;
+        width: 500px;
+        resize: none;
+    }
+}
+
+.feedBackElement{
+    border-top: 1px solid #505050;
+    display: grid;
+grid-template-areas: 'first second';
+    grid-template-columns:  200px 1fr;
+
+    .firstColumn{
+grid-area: first;
+        padding: 5px;
+        height: 100px;
+        width: 100px;
+        .feedbackName{
+            font-size: 17px;
+            margin-bottom: 10px;
+
+        }
+        .date{
+font-size: 12px;
+        }
+    }
+    .secondColumn{
+        padding: 5px;
+        grid-area: second;
+        .feedbackText{
+font-size: 16px;
+          resize: none;
+        }
+    }
+
+}
+.check:disabled{
+    background: #f10e34;
+}
+

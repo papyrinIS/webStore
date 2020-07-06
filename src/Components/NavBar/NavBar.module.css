@@ -1,0 +1,19 @@
+.navBar{
+    grid-area:navbar;
+    background: #fff;
+    height: 110px;
+    text-align: center;
+
+
+}
+.navBarItem{
+
+    text-decoration: none;
+    display: block;
+    color: #000;
+    padding: 10px;
+}
+.navBarItem:hover{
+    cursor: pointer;
+    background: #f5d5d5;
+}

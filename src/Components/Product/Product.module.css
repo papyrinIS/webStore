@@ -1,0 +1,27 @@
+.product{
+    font-size: 18px;
+    padding: 1%;
+    text-align: center;
+    width: 23%;
+    display: inline-block;
+    height: 250px;
+    position: relative;
+
+}
+.productPhoto{
+    width: 100%;
+}
+.product:hover{
+    background: #f5d5d5;
+    cursor: pointer;
+}
+
+.basket{
+
+    width: 20px;
+    margin-right: 5px;
+}
+.name{
+    text-decoration: none;
+    color:#000
+}

@@ -1,0 +1,13 @@
+.contacts{
+    background: #fff;
+    min-height: 496px;
+    padding: 10px;
+    font-size: 20px;
+}
+.contacts a{
+    color:#000000;
+    text-decoration: none;
+}
+.contacts a:hover{
+    color:#505050;
+}

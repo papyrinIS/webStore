@@ -1,0 +1,23 @@
+.basket{
+    background: #fff;
+    height: 100%;
+    padding: 10px;
+}
+
+.basketElement img{
+    width: 150px;
+}
+.basketCount{
+
+
+}
+
+.count{
+    -moz-appearance: textfield;
+    width: 40px;
+    height: 40px;
+
+}
+.count::-webkit-inner-spin-button {
+    display: none;
+}

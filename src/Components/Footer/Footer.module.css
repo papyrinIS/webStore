@@ -1,0 +1,56 @@
+.footer{
+    grid-area: footer;
+    padding: 5px;
+    height: 120px;
+    width: 900px;
+    background: #f10e34;
+    display: grid;
+    grid-template-areas:
+            'links contacts';
+
+    grid-template-columns: 1fr 1fr;
+    position: static;
+
+}
+
+.links{
+    margin-left: 20px;
+    display: grid;
+    grid-template-rows: 25px 25px 25px;
+
+
+}
+.link{
+    color:#000000;
+    text-decoration: none;
+    font-size: 20px;
+    height: 25px;
+    width: 200px;
+}
+.link:hover,
+.contacts a:hover{
+    color:#ffffff;
+}
+.contacts{
+    position: relative;
+    margin-left: 200px;
+    display: grid;
+    grid-area: contacts;
+    grid-template-rows: 25px 25px 25px;
+}
+.contact{
+    color:#000000;
+    text-decoration: none;
+    font-size: 20px;
+    height: 25px;
+}
+.contactLogoVK{
+    position: absolute;
+    left: 0px;
+    top:80px;
+}
+.contactLogoInst{
+    position: absolute;
+    left: 20px;
+    top:78px;
+}

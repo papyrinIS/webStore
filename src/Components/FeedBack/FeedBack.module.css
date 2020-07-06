@@ -1,0 +1,24 @@
+.feedBack{
+    display: block;
+}
+.fieldName{
+    display: block;
+    margin-top: 10px;
+    height: 25px;
+    width: 250px;
+}
+.fieldFeedback{
+    display: block;
+    margin-top: 10px;
+    height: 100px;
+    width: 500px;
+    resize: none;
+}
+
+.feedbackName{
+    background: #f5d5d5;
+
+}
+.check:disabled{
+    background: #f10e34;
+}

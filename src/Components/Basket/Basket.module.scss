@@ -1,0 +1,91 @@
+
+.basket {
+  background: #fff;
+  height: 100%;
+  padding: 10px;
+  .total{
+    margin-left: 400px;
+  }
+  .btnBuy{
+    padding: 7px 20px;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+
+}
+
+.basketElement {
+  display: flex;
+  margin-top: 5px;
+
+  img {
+    width: 150px;
+  }
+
+  .name {
+    margin: 65px 15px;
+    width: 150px;
+  }
+
+  .price {
+    margin: 65px 15px;
+    width: 100px;
+  }
+
+  .basketCount {
+    margin: 65px 0 65px 0px;
+    width: 100px;
+    display: flex;
+
+    .count {
+      text-align: center;
+      width: 35px;
+      height: 35px;
+      border: 1px solid #505050;
+
+    }
+
+    button {
+      border-radius: 0;
+      text-align: center;
+      background: #fff;
+      border: 1px solid #505050;
+      font-size: 20px;
+      padding: 3px 6px;
+      width: 25px;
+      margin: 0;
+    }
+
+  }
+
+  .deletePhone {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    background: #ffffff;
+    margin-top: 65px;
+
+    .x1 {
+      position: absolute;
+      border-top: 2px solid #000000;
+      width: 20px;
+      transform: rotate(45deg);
+    }
+
+    .x2 {
+      position: absolute;
+      border-top: 2px solid #000000;
+      width: 20px;
+      transform: rotate(135deg);
+    }
+
+    &:hover {
+      background: #f0f5f5;
+      border-radius: 15%;
+    }
+  }
+
+}
+
+
+

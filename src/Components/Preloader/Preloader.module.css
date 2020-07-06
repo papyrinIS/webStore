@@ -1,0 +1,6 @@
+.preloader{
+    grid-area:main;
+    background: #fff;
+    height: 700px;
+    padding: 150px 250px;
+}
