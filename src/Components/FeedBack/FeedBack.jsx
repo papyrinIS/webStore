@@ -21,8 +21,13 @@ const Feedback = ({feedback, addFeedback, oneApple, oneXiaomi, initializeFeedbac
         setCheck(1)
     }
 
-    let FeedBackElements = feedback.filter(f => f.productId === oneXiaomi.id || f.productId === oneApple.id).reverse().
-    map(fbe =><FeedbackElements rating={fbe.rating} id={fbe.id} name={fbe.name} date={fbe.date} feedBack={fbe.feedBack}/> )
+    let FeedBackElements = feedback.filter(f => f.productId === oneXiaomi.id || f.productId === oneApple.id).reverse()
+        .map(fbe =><FeedbackElements
+            rating={fbe.rating}
+            id={fbe.id}
+            name={fbe.name}
+            date={fbe.date}
+            feedBack={fbe.feedBack}/> )
 
     const [check, setCheck] = useState(1)
     const check1 = () => {
