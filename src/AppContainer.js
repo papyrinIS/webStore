@@ -15,7 +15,6 @@ const AppContainer = ({getAppleThunk,getXiaomiThunk,getBasketThunk,CountBasketPr
 
     let Count = basket.map(c => c.count);
 
-
     useEffect(  () => {
         let a=0
         for (let i = 0; i < basket.length; i++) {

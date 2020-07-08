@@ -1,9 +1,11 @@
 .searchBox {
+    position: absolute;
+    z-index: 100000;
     background: #fff;
     min-height: 0px;
-    margin-left: 259px;
-    width: 350px;
-    margin-top:-21px;
+    left: 265px;
+    width: 349px;
+    top:42px;
     border: 1px solid #000000;
     border-top: none;
 
@@ -15,6 +17,7 @@
     width: 350px;
     padding-left: 2px;
     margin: 2px 0;
+    color:#000000;
 }
 .searchBoxElements:hover{
     background:#f5d5d5;

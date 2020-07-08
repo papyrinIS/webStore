@@ -5,48 +5,48 @@
       "nameCompany": "apple",
       "productType": "smartphone",
       "name": "iphone X",
-      "photo": "/first/img/iphoneX.png",
-      "photo2": "/first/img/iphoneX2.png",
-      "photo3": "/first/img/iphoneX3.png",
+      "photo": "img/iphoneX.png",
+      "photo2": "img/iphoneX2.png",
+      "photo3": "img/iphoneX3.png",
       "price": 430,
       "memory": "64 GB",
-      "video": "/first/video/iPhoneX.mp4"
+      "video": "video/iPhoneX.mp4"
     },
     {
       "id": 2,
       "nameCompany": "apple",
       "productType": "smartphone",
       "name": "iphone Xr",
-      "photo": "/first/img/iphoneXr.png",
-      "photo2": "/first/img/iphoneXr2.png",
-      "photo3": "/first/img/iphoneXr3.png",
+      "photo": "img/iphoneXr.png",
+      "photo2": "img/iphoneXr2.png",
+      "photo3": "img/iphoneXr3.png",
       "price": 430,
       "memory": "64 GB",
-      "video": "/first/video/iPhoneXSR.mp4"
+      "video": "video/iPhoneXSR.mp4"
     },
     {
       "id": 3,
       "nameCompany": "apple",
       "productType": "smartphone",
       "name": "iphone Xs",
-      "photo": "/first/img/iphoneXs.png",
-      "photo2": "/first/img/iphoneXs2.png",
-      "photo3": "/first/img/iphoneXs3.png",
+      "photo": "img/iphoneXs.png",
+      "photo2": "img/iphoneXs2.png",
+      "photo3": "img/iphoneXs3.png",
       "price": 530,
       "memory": "64 GB",
-      "video": "/first/video/iPhoneXSR.mp4"
+      "video": "video/iPhoneXSR.mp4"
     },
     {
       "id": 4,
       "nameCompany": "apple",
       "productType": "smartphone",
       "name": "iphone 11",
-      "photo": "/first/img/iphone11.png",
-      "photo2": "/first/img/iphone11-2.png",
-      "photo3": "/first/img/iphone11-3.png",
+      "photo": "img/iphone11.png",
+      "photo2": "img/iphone11-2.png",
+      "photo3": "img/iphone11-3.png",
       "price": 580,
       "memory": "64 GB",
-      "video": "/first/video/iPhone11.mp4"
+      "video": "video/iPhone11.mp4"
     }
   ],
   "xiaomi": [
@@ -55,48 +55,48 @@
       "nameCompany": "xiaomi",
       "productType": "smartphone",
       "name": "mi 9",
-      "photo": "/first/img/mi9.png",
-      "photo2": "/first/img/mi9-2.png",
-      "photo3": "/first/img/mi9-3.png",
+      "photo": "img/mi9.png",
+      "photo2": "img/mi9-2.png",
+      "photo3": "img/mi9-3.png",
       "price": 400,
       "memory": "64GB 6GB RAM",
-      "video": "/first/video/Mi9.mp4"
+      "video": "video/Mi9.mp4"
     },
     {
       "id": 11,
       "nameCompany": "xiaomi",
       "productType": "smartphone",
       "name": "mi 8",
-      "photo": "/first/img/mi8.png",
-      "photo2": "/first/img/mi8-2.png",
-      "photo3": "/first/img/mi8-3.png",
+      "photo": "img/mi8.png",
+      "photo2": "img/mi8-2.png",
+      "photo3": "img/mi8-3.png",
       "price": 410,
       "memory": "64GB 6GB RAM",
-      "video": "/first/video/Mi8.mp4"
+      "video": "video/Mi8.mp4"
     },
     {
       "id": 12,
       "nameCompany": "xiaomi",
       "productType": "smartphone",
       "name": "redmi note 7",
-      "photo": "/first/img/redmiNote7.png",
-      "photo2": "/first/img/redmiNote7-2.png",
-      "photo3": "/first/img/redmiNote7-3.png",
+      "photo": "img/redmiNote7.png",
+      "photo2": "img/redmiNote7-2.png",
+      "photo3": "img/redmiNote7-3.png",
       "price": 170,
       "memory": "64GB 6GB RAM",
-      "video": "/first/video/RedmiNote7.mp4"
+      "video": "video/RedmiNote7.mp4"
     },
     {
       "id": 13,
       "nameCompany": "xiaomi",
       "productType": "smartphone",
       "name": "mi max 3",
-      "photo": "/first/img/miMax3.png",
-      "photo2": "/first/img/miMax3-2.png",
-      "photo3": "/first/img/miMax3-3.png",
+      "photo": "img/miMax3.png",
+      "photo2": "img/miMax3-2.png",
+      "photo3": "img/miMax3-3.png",
       "price": 660,
       "memory": "128GB 6GB RAM",
-      "video": "/first/video/MiMax3.mp4"
+      "video": "video/MiMax3.mp4"
     }
   ],
   "description": [
@@ -183,20 +183,28 @@
   ],
   "basket": [
     {
-      "name": "iphone 11",
-      "photo": "/first/img/iphone11.png",
-      "price": 580,
-      "count": 2,
-      "productId": 4,
-      "id": 8
+      "name": "iphone X",
+      "photo": "img/iphoneX.png",
+      "price": 430,
+      "count": 6,
+      "productId": 1,
+      "id": 10
     },
     {
-      "name": "mi 8",
-      "photo": "/first/img/mi8.png",
-      "price": 410,
+      "name": "iphone Xs",
+      "photo": "img/iphoneXs.png",
+      "price": 530,
+      "count": 2,
+      "productId": 3,
+      "id": 12
+    },
+    {
+      "name": "iphone Xr",
+      "photo": "img/iphoneXr.png",
+      "price": 430,
       "count": 1,
-      "productId": 11,
-      "id": 9
+      "productId": 2,
+      "id": 13
     }
   ],
   "feedBack": [
@@ -773,6 +781,14 @@
       "rating": 5,
       "date": "30.5.2020",
       "id": 124
+    },
+    {
+      "name": "zayn",
+      "productId": 10,
+      "feedBack": "perfect",
+      "rating": 4,
+      "date": "6.6.2020",
+      "id": 125
     }
   ]
 }

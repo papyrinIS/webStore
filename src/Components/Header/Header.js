@@ -32,6 +32,8 @@ const endSearch= ()=>{
 
     return<div className={styles.header}>
         <Link  to="/" onClick={endSearch}><img alt={"logo"} height={50} src={logo}/></Link>
+
+
         <input className={styles.inputSearch} onChange={inputSearch} value={searchName}/>
 
         { searchBox!==""  &&
